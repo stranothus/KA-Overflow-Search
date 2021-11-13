@@ -1,0 +1,32 @@
+#question {
+    padding: 10px 15px;
+    background-color: var(--bg-3);
+    color: var(--txt-main);
+    font-family: var(--font-main);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+* > .comment {
+    margin: 0 0 0 25px;
+    padding: 10px 15px;
+    background-color: var(--bg-3);
+    color: var(--txt-main);
+    font-family: var(--font-main);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    border-top: 1px solid var(--bg-1);
+}
+* > .comment:last-child {
+    border-bottom: 1px solid var(--bg-1);
+}
+#answers .answer {
+    margin: 0 0 0 25px;
+}
+#answers .answer #content {
+    padding: 10px 15px;
+    background-color: var(--bg-3);
+    color: var(--txt-main);
+    font-family: var(--font-main);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
